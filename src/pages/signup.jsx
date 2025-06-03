@@ -45,7 +45,7 @@ const SignUp = () => {
     }
 
     try {
-      const response = await fetch('https://shaadhi.vercel.app/api/users/register', {
+      const response = await fetch('https://shaadibackend2.vercel.app/api/users/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
